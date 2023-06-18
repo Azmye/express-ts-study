@@ -31,5 +31,4 @@ My First ExpressTs project, a simple authentication with jwt and private todos
 
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ```
