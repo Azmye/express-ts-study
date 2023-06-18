@@ -28,7 +28,3 @@ My First ExpressTs project, a simple authentication with jwt and private todos
 
    JWT_SECRET_KEY=
    ```
-
-```
-
-```
