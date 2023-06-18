@@ -28,3 +28,15 @@ My First ExpressTs project, a simple authentication with jwt and private todos
 
    JWT_SECRET_KEY=
    ```
+
+   <!-- USAGE EXAMPLES -->
+
+   ## Usage
+
+   1. Run the App with.
+
+   ```sh
+     NPM START
+   ```
+
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
