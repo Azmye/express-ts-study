@@ -7,6 +7,7 @@ import { config as dotenv } from 'dotenv';
 
 // Routers
 import userRoutes from './routers/userRoutes';
+import authRoutes from './routers/authRoutes';
 
 class App {
   public app: Application;
@@ -24,6 +25,7 @@ class App {
     });
 
     this.app.use('/api/v1/users', userRoutes);
+    this.app.use('/api/v1/auth', authRoutes);
   }
 
   protected plugins(): void {
