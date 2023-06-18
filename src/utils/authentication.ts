@@ -13,8 +13,9 @@ class Authentication {
 
   public static generateToken = (payload: JwtPayload): string => {
     const secretKey: string = process.env.JWT_SECRET_KEY || 'secret';
+    const expiresIn: string = '3h';
 
-    const token: string = jwt.sign(payload, secretKey);
+    const token: string = jwt.sign(payload, secretKey, { expiresIn });
 
     return token;
   };
