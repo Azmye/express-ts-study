@@ -31,12 +31,12 @@ My First ExpressTs project, a simple authentication with jwt and private todos
 
    <!-- USAGE EXAMPLES -->
 
-   ### Usage
+### Usage
 
-   1. Run the App with.
+1. Run the App with.
 
-   ```sh
+```sh
      NPM START
-   ```
+```
 
-    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
